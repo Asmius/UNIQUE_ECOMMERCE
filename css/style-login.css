@@ -1,0 +1,119 @@
+body {
+  /* background:  linear-gradient(45deg,#83EAF1,#63A4FF); */
+  overflow-y:hidden;
+  background-image:  url("../images/login_bg(edited).jpg");
+  font-style: "Merriweather Sans";
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh-1px);
+   color: /* #393E46; */ #423F3E;
+  width: 100%;
+  max-width: 100%
+  overflow-y:hidden;
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+.container{
+overflow-x: hidden;
+padding-bottom: 6rem;
+max-width: 55rem;
+display: block;
+align-items: center;
+overflow-y: hidden;
+margin-right: 0rem;
+margin-top: -5rem;
+
+}
+
+.row {
+
+  display: block;
+  text-align: center;
+  padding: 0 2.5rem 5rem 2.5rem;
+  align-items: center;
+  background-color: white;
+  margin-top: 10rem;
+  width: 50%;
+  margin-left: 18rem;
+  border-radius: .5rem;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+
+.login-head {
+  color: #423F3E;
+  display: block;
+  margin: 1.8rem 0;
+  padding-top: 2rem;
+  font-family: 'Merriweather Sans';
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.field-icon {
+  font-size: 1.5rem;
+  float: right;
+  margin-right: 1rem;
+  margin-top: -2.5rem;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  margin-top: 2.5rem;
+  font-family: 'Merriweather Sans';
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+.btn-primary {
+  background-color: #39e75f;
+  border-style: none;
+}
+
+.btn-primary:hover {
+  background-color: #82CD47;
+}
+
+.form-group {
+ color: #393E46;
+ font-family: 'Merriweather Sans';
+
+}
+
+.login {
+  margin: 20px 15px;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.form-check {
+  text-align: left;
+}
+
+.form-floating{
+  border-radius: .5rem;
+   background-color: #dcdcdc;
+}
+.forgot-password{
+  color:inherit;
+  font-family: "Merriweather Sans",sans-serif;
+  margin-left: -11rem;
+  font-size: .90rem;
+}
+
+@media on screen(max-width:480px) {
+  .container{
+    max-width: 30rem;
+  }
+}

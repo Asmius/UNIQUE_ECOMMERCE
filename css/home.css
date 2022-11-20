@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "EB Garamond",serif;
+
+}
+
+ /* applies for only opera and chrome */
+body::-webkit-scrollbar {
+  display: none;
+
+}
+
+/* navbar section */
+
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-item {
+  font-family: "Montserrat";
+}
+
+.navbar-brand {
+
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding: 0 0 0 2rem;
+}
+
+/* testimonials */
+.carousel-item {
+  height: 90vh;
+  padding: 0 -2rem;
+}
+
+/* feature section */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5% 5% 2.5% 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #2192FF;
+  margin-bottom: 2rem;
+}
+
+.icon:hover {
+  color: #47B5FF;
+}
+
+.fa-badge {
+  size: 3rem;
+}
+
+h3 {
+  font-family: "EB Garamond",serif;
+  color: #06283D;
+  font-weight: 600;
+}
+
+p {
+font-family: "EB Garamond",serif;
+  color: #8f8f8f;
+}
+
+
+/* Quotes */
+
+.quote{
+  background-color: #2192FF;
+  align-items: center;
+  text-align: center;
+  padding: 10% 1%;
+  color: white;
+}
+
+.big-heading{
+  font-family: "EB Garamond",serif;
+  font-size: 4rem;
+  font-weight: bold;
+
+  line-height: 1.5;
+}
+
+/* footer */
+.download-button{
+  margin-top: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.footer{
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 5% 1%;
+  background-color: #222831;
+}
+.social{
+  margin: 1.25rem 0.625rem;
+  size: 3rem;
+}
+
+#footer.p{
+  font-size: 3rem;
+}
