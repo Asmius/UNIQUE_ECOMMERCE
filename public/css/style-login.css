@@ -4,6 +4,7 @@ body {
   background-image:  url("../images/login_bg(edited).jpg");
   font-style: "Merriweather Sans";
   align-items: center;
+  
   box-sizing: border-box;
   justify-content: center;
   display: flex;
@@ -11,8 +12,8 @@ body {
   max-height: calc(100vh-1px);
    color: /* #393E46; */ #423F3E;
   width: 100%;
-  max-width: 100%
-  overflow-y:hidden;
+  max-width: 100%;
+ 
   background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: 100% 100%;
@@ -26,13 +27,14 @@ display: block;
 align-items: center;
 overflow-y: hidden;
 margin-right: 0rem;
-margin-top: -5rem;
+
 
 }
 
 .row {
-
+  max-height: calc(100vh-1px);
   display: block;
+
   text-align: center;
   padding: 0 2.5rem 5rem 2.5rem;
   align-items: center;
@@ -112,8 +114,23 @@ box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2
   font-size: .90rem;
 }
 
-@media on screen(max-width:480px) {
-  .container{
-    max-width: 30rem;
-  }
+.new-user{
+ text-decoration: none;    /*for the footer signup*/
+ color:#63A4FF;
 }
+
+.new_user{
+  margin-top: 2rem;                        /*for the whole footer*/
+}
+ .footer-user{
+  text-align: center;
+ }
+
+ .alert-message{
+  color:black;
+  font-weight: bold;
+  background-color: #39e75f;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+ 

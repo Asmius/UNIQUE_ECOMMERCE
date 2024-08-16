@@ -4,15 +4,26 @@
   "description": "This is a community website created for the mini project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "author": "Suresh S",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
-    "lodash": "^4.17.21"
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.3",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.5.3",
+    "three": "^0.146.0"
   }
 }

@@ -16,19 +16,21 @@ body {
   overflow-y: hidden;
 }
 
-.container {
-  /* padding-bottom: 6rem; */
+ .container {
+  margin-top: 0;
+   padding-bottom: 6rem; 
   margin-left: auto;
   margin-right: auto;
   width: 70rem;
-  height:10rem;
-}
+  height:10rem; 
+ }  
 
 
 
 .row {
-  display: block;
+  margin-top: 0;
   text-align: center;
+  max-height: 50rem;
   padding: 0 2rem 2rem 2rem;
   align-items: center;
   background-color: white;
@@ -43,8 +45,8 @@ body {
 
 .signup-head {
   display: block;
-  margin: 1.8rem 0;
-  padding-top: 2rem;
+  margin: 1rem 0;
+  padding-top: 1rem;
   font-family: "Merriweather Sans", sans-serif;
   font-weight: bolder;
   font-size: 2rem;
@@ -80,6 +82,8 @@ body {
 
 .form-group {
   color: #001253;
+  width: 100%;
+  height: auto;
   font-style: "Ubuntu", normal;
 }
 
@@ -105,6 +109,7 @@ body {
 }
 
 .form-floating {
+  margin-top: 0;
   border-radius: .5rem;
   background-color: #dcdcdc;
 }
@@ -129,7 +134,26 @@ body {
   width: 25%;
   display: inline-block;
   background-color: #8BD448;
-  height: 5rem;
+  height: 4rem;
   position: relative;
 }
+
+.row-md-4{
+  padding-bottom: 0;
+}
+
+.btn-md{
+  margin: 1 2rem;
+  height: 2rem;
+  width:100%
+}
+
+.alert-message{
+  color: black;
+  font-weight: bold;
+  background-color: #39e75f;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+ 
 

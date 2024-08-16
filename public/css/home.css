@@ -32,6 +32,15 @@ body::-webkit-scrollbar {
   padding: 0 0 0 2rem;
 }
 
+.navbar-nav > .active > a {
+  color:white;
+ 
+}
+.nav-item > a:hover {
+  color:white;
+}
+
+
 /* testimonials */
 .carousel-item {
   height: 90vh;
